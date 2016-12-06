@@ -21,4 +21,4 @@ app.get('/:thestring', (req, res) => {
 
 // go!
 app.on('error', console.error)
-app.listen(process.env.NODE_PORT || 8000)
+app.listen(process.env.NODE_PORT || process.env.PORT || 8000)

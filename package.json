@@ -7,7 +7,8 @@
   "author": "Ayman Nedjmeddine (https://twitter.com/IOAyman)",
   "license": "MIT",
   "scripts": {
-    "watch": "nodemon go.js"
+    "watch": "nodemon go.js",
+    "start": "node go.js"
   },
   "dependencies": {
     "express": "^4.14.0",
